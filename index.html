@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll System</title>
+    <link rel="stylesheet " href="./index.css">
+ </head>
+ <body>
+    
+    <div class="conatiner">
+        <h1>Poll System</h1>
+        <div class="options">
+            <h2>What is your favorite programming language?</h2>
+            <div class="option">
+                <input type="radio" name="poll" id="option1" value="option1" />
+                <label for="option1">Javascript</label>
+        </div>
+            <div class="option">
+                <input type="radio" name="poll" id="option2" value="option2" />
+                <label for="option2">Python</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="poll" id="option3" value="option3" />
+                <label for="option3">Java</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="poll" id="option4" value="option4" />
+                <label for="option4">C++</label>
+            </div>
+        </div>
+         <button>Submit Vote</button>
+
+         <div id="result">
+            
+         </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
